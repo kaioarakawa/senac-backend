@@ -6,9 +6,9 @@
         maxTotal="10"
         maxIdle="10"
         maxWaitMillis="10000"
-        username="senac_4ewp_user"
-        password="e7fgNoWgqy73JUxSapqYyRStsGah5t7c"
+        username="${DB_USERNAME}"
+        password="${DB_PASSWORD}"
         driverClassName="org.postgresql.Driver"
-        url="jdbc:postgresql://dpg-d3i3tv8gjchc7380nul0-a.oregon-postgres.render.com:5432/senac_4ewp"
+        url="${DB_URL}"
     />
 </Context>
